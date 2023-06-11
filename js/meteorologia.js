@@ -36,7 +36,7 @@ class Tiempo{
     }
     mostrar(){
         this.ciudad="muros";
-        this.url="http://api.openweathermap.org/data/2.5/forecast?q="+this.ciudad+","+this.codigoPais+this.unidades+this.idioma+"&APPID="+this.apikey;
+        this.url="https://api.openweathermap.org/data/2.5/forecast?q="+this.ciudad+","+this.codigoPais+this.unidades+this.idioma+"&APPID="+this.apikey;
         $("main").remove();
         $("section").after(document.createElement("main"));
        // $("h2").remove();
