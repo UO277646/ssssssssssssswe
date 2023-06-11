@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Juego</title>
+
+    <meta name="author" content="Juan Dominguez" />
+    <meta name="keywords" content="javascript" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="description" content="Pagina principal" />
+    <link rel="stylesheet" type="text/css" href="estilo/estiloIndex.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/juego.js"></script>
+</head>
+<body>
+
+<h1>Juego sobre muros del nalon</h1>
+<nav>
+    <p>
+        <a title= "Pagina principal" tabindex="1" accesskey="T" href="index.html">Pagina principal</a>
+    </p>
+    <p>
+        <a title= "Gastronomia" tabindex="2" accesskey="C" href="gastronomia.html">Gastronomia</a>
+    </p>
+    <p>
+        <a title= "Meteorologia" tabindex="3" accesskey="D" href="meteorologia.html">Meteorologia</a>
+    </p>
+    <p>
+        <a title= "Juego" tabindex="4" accesskey="P" href="juego.html">Juego</a>
+    </p>
+    <p>
+        <a title= "Reserva" tabindex="5" accesskey="G" href="php/HacerReserva.php">Reserva</a>
+    </p>
+    <p>
+        <a title= "Rutas" tabindex="6" accesskey="Y" href="xml/rutas.html">Rutas</a>
+    </p>
+
+</nav>
+<section>
+    <h2>Formulario</h2>
+    <form name="Juego">
+        <fieldset>
+            <legend>La comida mas tipica de muros de nalon es :</legend>
+            <p>
+
+
+                <label for="fab">Fabada</label>
+                <input id="fab" type="radio" name="comida" value="cor">
+
+                <label for="calsots">Calsots</label>
+                <input id="calsots" type="radio" name="comida" value="calsots">
+
+                <label for="crema">Crema catalana</label>
+                <input id="crema" type="radio" name="comida" value="crema">
+
+                <label for="tortilla">Tortilla de patata</label>
+                <input id="tortilla" type="radio" name="comida" value="tortilla">
+
+                <label for="Salmorejo">Salmorejo</label>
+                <input id="Salmorejo" type="radio" name="comida" value="Salmorejo">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Un restaurante conocido en muros es:</legend>
+            <p>
+
+
+                <label for="casa">Casa Zoilo</label>
+                <input id="casa" type="radio" name="restaurante" value="cor">
+
+                <label for="furacu">El furacu</label>
+                <input id="furacu" type="radio" name="restaurante" value="furacu">
+
+                <label for="mari">Casa mari</label>
+                <input id="mari" type="radio" name="restaurante" value="mari">
+
+                <label for="mira">El mirador</label>
+                <input id="mira" type="radio" name="restaurante" value="mira">
+
+                <label for="yu">Yumai</label>
+                <input id="yu" type="radio" name="restaurante" value="yu">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Un postre tipico de muros es:</legend>
+            <p>
+
+
+                <label for="tart">Tarta de queso</label>
+                <input id="tart" type="radio" name="postre" value="cor">
+
+                <label for="ixi">Pixin</label>
+                <input id="ixi" type="radio" name="postre" value="ixi">
+
+                <label for="chocolate">Tarta tres chocolates</label>
+                <input id="chocolate" type="radio" name="postre" value="chocolate">
+
+                <label for="afe">Cafe con galletas</label>
+                <input id="afe" type="radio" name="postre" value="afe">
+
+                <label for="ruissant">Cruissant</label>
+                <input id="ruissant" type="radio" name="postre" value="ruissant">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Un pescado tipico de muros es:</legend>
+            <p>
+
+
+                <label for="pix">Pixin</label>
+                <input id="pix" type="radio" name="pescado" value="cor">
+
+                <label for="onito">Bonito</label>
+                <input id="onito" type="radio" name="pescado" value="onito">
+
+                <label for="nguila">Anguila</label>
+                <input id="nguila" type="radio" name="pescado" value="nguila">
+
+                <label for="iburon">Tiburon</label>
+                <input id="iburon" type="radio" name="pescado" value="iburon">
+
+                <label for="uey">Buey de mar</label>
+                <input id="uey" type="radio" name="pescado" value="uey">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Una playa cercana a muros es:</legend>
+            <p>
+
+
+                <label for="aguilar">Playa del aguilar</label>
+                <input id="aguilar" type="radio" name="playa" value="cor">
+
+                <label for="juan">San juan</label>
+                <input id="juan" type="radio" name="playa" value="juan">
+
+                <label for="alinas">Salinas</label>
+                <input id="alinas" type="radio" name="playa" value="alinas">
+
+                <label for="ago">Xago</label>
+                <input id="ago" type="radio" name="playa" value="ago">
+
+                <label for="pedro">San pedro de la ribera</label>
+                <input id="pedro" type="radio" name="playa" value="pedro">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Una ruta de muros es:</legend>
+            <p>
+
+
+                <label for="oso">Senda del oso</label>
+                <input id="oso" type="radio" name="ruta" value="oso">
+
+                <label for="mirado">Los miradores</label>
+                <input id="mirado" type="radio" name="ruta" value="cor">
+
+                <label for="xanas">Las xanas</label>
+                <input id="xanas" type="radio" name="ruta" value="xanas">
+
+                <label for="agua">Ruta del agua</label>
+                <input id="agua" type="radio" name="ruta" value="agua">
+
+                <label for="luarquino">Paseo luarquino</label>
+                <input id="luarquino" type="radio" name="ruta" value="luarquino">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Una ruta de muros es:</legend>
+            <p>
+
+
+                <label for="gayo">Senda de gayo</label>
+                <input id="gayo" type="radio" name="muros" value="gayo">
+
+                <label for="despe">Los despeños</label>
+                <input id="despe" type="radio" name="muros" value="despe">
+
+                <label for="Senda">Senda montañera</label>
+                <input id="Senda" type="radio" name="muros" value="Senda">
+
+                <label for="mar">Ruta del mar</label>
+                <input id="mar" type="radio" name="muros" value="mar">
+
+                <label for="costera">Senda costera Aguilar</label>
+                <input id="costera" type="radio" name="muros" value="cor">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>La senda de los miradores es para:</legend>
+            <p>
+
+
+                <label for="niños">Solo niños</label>
+                <input id="niños" type="radio" name="miradores" value="niños">
+
+                <label for="adultos">Solo adultos</label>
+                <input id="adultos" type="radio" name="miradores" value="adultos">
+
+                <label for="mayores">Todo el mundo menos personas mayores</label>
+                <input id="mayores" type="radio" name="miradores" value="mayores">
+
+                <label for="mundo">Todo el mundo menos niños</label>
+                <input id="mundo" type="radio" name="miradores" value="mundo">
+
+                <label for="publicos">Todos los publicos</label>
+                <input id="publicos" type="radio" name="miradores" value="cor">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Un mirador que aparece en las rutas es:</legend>
+            <p>
+
+
+                <label for="arbol">Mirador del arbol</label>
+                <input id="arbol" type="radio" name="mirador" value="arbol">
+
+                <label for="costero">Mirador costero</label>
+                <input id="costero" type="radio" name="mirador" value="costero">
+
+                <label for="roca">Mirador de la roca</label>
+                <input id="roca" type="radio" name="mirador" value="roca">
+
+                <label for="azul">Mirador azul</label>
+                <input id="azul" type="radio" name="mirador" value="azul">
+
+                <label for="atalaya">Mirador de la atalaya</label>
+                <input id="atalaya" type="radio" name="mirador" value="cor">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>La ruta de san juan de la arena es:</legend>
+            <p>
+
+
+                <label for="pie">A pie</label>
+                <input id="pie" type="radio" name="juan" value="cor">
+
+                <label for="bici">En bici</label>
+                <input id="bici" type="radio" name="juan" value="bici">
+
+                <label for="coche">En coche</label>
+                <input id="coche" type="radio" name="juan" value="coche">
+
+                <label for="ruta">Una ruta de montaña</label>
+                <input id="ruta" type="radio" name="juan" value="ruta">
+
+                <label for="galicia">Una ruta cercana a galicia</label>
+                <input id="galicia" type="radio" name="juan" value="galicia">
+            </p>
+        </fieldset>
+        <input type="button" value="Corregir"  onclick="juego.calcularRespuestasCorrectas()">
+        <input id="submit" type="submit" value="enviar">
+
+    </form>
+</section>
+
+
+</body>
+</html>

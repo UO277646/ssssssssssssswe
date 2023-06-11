@@ -1,0 +1,33 @@
+/************************************
+    Juan Dominguez Alvarez - UO277646
+    Descripcion de los estilos
+************************************/
+/************************************
+    Juan Dominguez Alvarez - UO277646
+    Descripcion de los estilos
+************************************/
+/*Especificidad: 001*/
+body {
+
+    display: flex;  
+    /*cada auto es el tamaño de la columna */
+    flex-flow: column ;
+    flex:auto;
+  
+    }
+  
+  /*Especificidad: 001*/
+  main{
+    display: flex;  
+    /*cada auto es el tamaño de la columna */
+    flex-flow: row ;
+    text-align: justify;
+    
+    
+  }
+  
+  
+
+  
+  
+    

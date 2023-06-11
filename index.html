@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Pagina principal</title>
+
+    <meta name="author" content="Juan Dominguez" />
+    <meta name="keywords" content="javascript" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="description" content="Pagina principal" />
+    <link rel="stylesheet" type="text/css" href="estilo/estiloIndex.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/layoutIndex.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/PaginaPrincipal.js"></script>
+</head>
+<body>
+<h1>Muros del nalon</h1>
+<nav>
+    <p>
+        <a title= "Pagina principal" tabindex="1" accesskey="T" href="index.html">Pagina principal</a>
+    </p>
+    <p>
+        <a title= "Gastronomia" tabindex="2" accesskey="C" href="gastronomia.html">Gastronomia</a>
+    </p>
+    <p>
+        <a title= "Meteorologia" tabindex="3" accesskey="D" href="meteorologia.html">Meteorologia</a>
+    </p>
+    <p>
+        <a title= "Juego" tabindex="4" accesskey="P" href="juego.html">Juego</a>
+    </p>
+    <p>
+        <a title= "Reserva" tabindex="5" accesskey="G" href="php/HacerReserva.php">Reserva</a>
+    </p>
+    <p>
+        <a title= "Rutas" tabindex="6" accesskey="Y" href="xml/rutas.html">Rutas</a>
+    </p>
+
+</nav>
+
+<section>
+    <h2>Carrusel de imagenes</h2>
+    <img src= "multimedia/muros.png" alt="muros"/>
+    <form>
+
+        <input type="button" value="Cambiar foto" onclick="pagina.cambiarImagen()">
+        <input type="button" value="Mostrar tiempo" onclick="tiempo.mostrar()">
+        <input type="button" value="Mostrar titulares" onclick="noticias.mostrar()">
+        <input id="submit" type="submit" value="enviar">
+    </form>
+</section>
+<section>
+    <h2>Mapa dinamico</h2>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=geoloc.mapa"></script>
+
+</section>
+<main>
+    <h2>Tiempo Actual</h2>
+
+</main>
+<aside>
+    <h2>Noticias</h2>
+</aside>
+<footer>
+    <p>Hora de la ultima actualizacion</p>
+</footer>
+</body>
+</html>

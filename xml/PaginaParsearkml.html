@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8" />
+        <title>Juego</title>
+
+        <meta name="author" content="Juan Dominguez" />
+        <meta name="keywords" content="javascript" />
+        <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+        <meta name="description" content="Pagina principal" />
+        <link rel="stylesheet" type="text/css" href="../estilo/estiloIndex.css"/>
+        <link rel="stylesheet" type="text/css" href="../estilo/layout.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="parsearKml.js"></script>
+</head>
+<body>
+ <!-- Datos con el contenido que aparece en el navegador -->
+ <h1>Trabajar con archivos txt , xml y json</h1>
+
+
+<h2>Seleccione un archivo</h2>
+<form>
+        <label for="arc">Archivo</label>
+        <input type ="file" id="arc" onchange="proc.calcularRespuestasCorrectas(this.files);">
+        <input id="submit" type="submit" value="enviar">
+</form>
+
+<footer>
+Juan Dominguez Alvarez
+</footer>
+   
+</body>
+</html>

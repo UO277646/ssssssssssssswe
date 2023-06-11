@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Gastronomia Muros </title>
+
+    <meta name="author" content="Juan Dominguez" />
+    <meta name="keywords" content="Gastronomia,Muros de Nalon,comida" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="description" content="Pagina que contiene la gastronomia tipica de muros de nalon" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
+</head>
+<body>
+<!-- Datos con el contenido que aparece en el navegador -->
+<h1>Gastronomia de Muros de nalon</h1>
+<nav>
+    <p>
+        <a title= "Pagina principal" tabindex="1" accesskey="T" href="index.html">Pagina principal</a>
+    </p>
+    <p>
+        <a title= "Gastronomia" tabindex="2" accesskey="C" href="gastronomia.html">Gastronomia</a>
+    </p>
+    <p>
+        <a title= "Meteorologia" tabindex="3" accesskey="D" href="meteorologia.html">Meteorologia</a>
+    </p>
+    <p>
+        <a title= "Juego" tabindex="4" accesskey="P" href="juego.html">Juego</a>
+    </p>
+    <p>
+        <a title= "Reserva" tabindex="5" accesskey="G" href="php/HacerReserva.php">Reserva</a>
+    </p>
+    <p>
+        <a title= "Rutas" tabindex="6" accesskey="Y" href="xml/rutas.html">Rutas</a>
+    </p>
+
+</nav>
+<section>
+<h2>Los cuatro platos mas comunes que podemos encontrar son:</h2>
+<ol>
+    <li>Fabada asturiana</li>
+
+    <li>Callos asturianos</li>
+
+    <li>Merluza a la sidra</li>
+
+    <li>Arroz con leche</li>
+</ol>
+</section>
+
+<section>
+    <h2>Platos dentro de cada categoria</h2>
+    <dl>
+        <dt>Pescado</dt>
+        <dd>
+            <ul>
+                <li>Merluza</li>
+
+                <li>Lenguado</li>
+
+                <li>Pixin</li>
+            </ul>
+        </dd>
+        <dt>Carne</dt>
+        <dd>
+            <ul>
+                <li>Chuleton de ternera madurada</li>
+
+                <li>Cordero a la brasa</li>
+
+                <li>Callos con patates</li>
+            </ul>
+        </dd>
+        <dt>Postres</dt>
+        <dd>
+            <ul>
+                <li>Tarta de queso</li>
+
+                <li>Arroz con leche</li>
+
+                <li>Casadielles</li>
+            </ul>
+        </dd>
+    </dl>
+</section>
+<section>
+    <h2>Restaurantes</h2>
+    <table>
+        <caption> Restaurantes donde comer</caption>
+        <tr><th>Nombre<th>Especialidad <th>Reseñas
+        <tr>
+            <td>Casa Zoilo
+            <td>Arroces y parrilla
+            <td>4.4
+        <tr>
+            <td> La Casona
+            <td> Sidra y chuletón a la parrilla
+            <td>4.3
+
+        <tr>
+            <td> La Xana del Caballar
+            <td> Pescados y mariscos
+            <td>4.6
+
+        <tr>
+            <td> El hórreo comida casera
+            <td> Cocina asturiana y platos tradicionales
+            <td>4.5
+
+    </table>
+</section>
+
+<footer>
+    <h2>Video y fotos de muros</h2>
+    <p><img src= "multimedia/muros.png" alt="muros"/></p>
+
+    <video src="multimedia/video.mp4" controls preload="auto">
+        No es posible la reproducción del vídeo  <!-- Mensaje que aparecerá en caso de error a la hora de reproducir el video -->
+    </video>
+    <audio src="multimedia/chill.mp3" controls> </audio>
+</footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/************************************
+    Juan Dominguez Alvarez - UO277646
+    Descripcion de los estilos
+************************************/
+/************************************
+    Juan Dominguez Alvarez - UO277646
+    Descripcion de los estilos
+************************************/
+/*Especificidad: 001*/
+/* Estilos generales */
+body {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/*Especificidad: 001*/
+section {
+  margin-bottom: 20px;
+}
+/*Especificidad: 001*/
+h2 {
+  margin-top: 0;
+}
+
+/* Carrusel de imágenes */
+/*Especificidad: 011*/
+section:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*Especificidad: 001*/
+img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+/*Especificidad: 001*/
+form {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+/* Mapa dinámico */
+/*Especificidad: 011*/
+section:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+/* Tiempo actual */
+/*Especificidad: 001*/
+main {
+  text-align: center;
+}
+
+/* Noticias */
+/*Especificidad: 001*/
+aside {
+  text-align: center;
+}
+/* Footer */
+/*Especificidad: 001*/
+footer {
+  text-align: center;
+}
+  
+  
+
+  
+  
+    

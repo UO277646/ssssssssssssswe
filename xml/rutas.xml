@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta nombre="Senda costera Aguilar" tipo="Senderismo">
+        <datos>
+            <medioTransporte>"Caminando"</medioTransporte>
+            <duracion>"2 horas"</duracion>
+            <agencia>"sinagencia"</agencia>
+            <descripcion>"Una de las sendas costeras más bonitas de Asturias"</descripcion>
+            <personas>"Todo tipo de publico"</personas>
+            <lugarInicio>"Playa de Aguilar"</lugarInicio>
+            <direccionInicio>"San Esteban de Pravia"</direccionInicio>
+            <coordenadasRuta>
+                <longitud>"-6.11"</longitud>
+                <latitud>"43.554"</latitud>
+                <altitud>"640"</altitud>
+            </coordenadasRuta>
+            <referencias>
+                <referencia>"https://es.wikiloc.com/rutas-senderismo/senda-costera-de-la-playa-de-aguilar-a-san-esteban-de-pravia-28289782"</referencia>
+                <referencia>"https://es.wikipedia.org/wiki/San_Esteban_de_Pravia"</referencia>
+                <referencia>"https://es.wikipedia.org/wiki/Muros_de_Nal%C3%B3n"</referencia>
+            </referencias>
+            <nota>"9.5"</nota>
+            <hitos>
+                <hito>
+                    <nombre>Mirador atalaya</nombre>
+                    <descripcion>Panoramica desde el mirador de la atalaya</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-6.11"</longitud>
+                        <latitud>"43.554"</latitud>
+                        <altitud>"640"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/miradorAtalaya.jpg"></fotografias>
+                </hito>
+                <hito>
+                    <nombre>Playa de los espinos</nombre>
+                    <descripcion>Foto cerca de la playa de los espinos</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-6.11"</longitud>
+                        <latitud>"43.554"</latitud>
+                        <altitud>"640"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/espinos.jpg"></fotografias>
+                </hito>
+                <hito>
+                    <nombre>Playa del garruncho</nombre>
+                    <descripcion>Foto de la playa del garruncho</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-6.11"</longitud>
+                        <latitud>"43.554"</latitud>
+                        <altitud>"640"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/garruncho.jpg"></fotografias>
+                </hito>
+            </hitos>
+            <planimetria src="rutas.kml"></planimetria>
+            <altimetria src="rutas.svg"></altimetria>
+        </datos>
+    </ruta>
+    <ruta nombre="Senda los miradores" tipo="Senderismo">
+        <datos>
+            <medioTransporte>"Caminando"</medioTransporte>
+            <duracion>"4 horas"</duracion>
+            <agencia>"sinagencia"</agencia>
+            <descripcion>"Preciosa ruta por la Senda Costera, también llamada ruta de los Miradores"</descripcion>
+            <personas>"Todo tipo de publico"</personas>
+            <lugarInicio>"Playa de Aguilar"</lugarInicio>
+            <direccionInicio>"San Esteban de Pravia"</direccionInicio>
+            <coordenadasRuta>
+                <longitud>"-6.103"</longitud>
+                <latitud>"43.556"</latitud>
+                <altitud>"300"</altitud>
+            </coordenadasRuta>
+            <referencias>
+                <referencia>"https://es.wikiloc.com/rutas-senderismo/senda-de-los-miradores-playa-de-aguilar-san-esteban-de-pravia-88888859"</referencia>
+                <referencia>"https://es.wikipedia.org/wiki/San_Esteban_de_Pravia"</referencia>
+                <referencia>"https://es.wikipedia.org/wiki/Muros_de_Nal%C3%B3n"</referencia>
+            </referencias>
+            <nota>"10"</nota>
+            <hitos>
+                <hito>
+                    <nombre>Mirador atalaya</nombre>
+                    <descripcion>Panoramica desde el mirador de la atalaya</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-6.103"</longitud>
+                        <latitud>"43.556"</latitud>
+                        <altitud>"1.77"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/miradorAtalaya.jpg"></fotografias>
+                </hito>
+                <hito>
+                    <nombre>Playa del campon</nombre>
+                    <descripcion>Foto de la playa del campon</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-6.103"</longitud>
+                        <latitud>"43.556"</latitud>
+                        <altitud>"1.77"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/carpon.jpg"></fotografias>
+                </hito>
+                <hito>
+                    <nombre>Playa del garruncho</nombre>
+                    <descripcion>Foto de la playa del garruncho</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-6.103"</longitud>
+                        <latitud>"43.556"</latitud>
+                        <altitud>"1.77"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/garruncho.jpg"></fotografias>
+                </hito>
+            </hitos>
+            <planimetria src="rutas.kml"></planimetria>
+            <altimetria src="rutas.svg"></altimetria>
+        </datos>
+    </ruta>
+    <ruta nombre="Objetivo san juan de la arena" tipo="Senderismo">
+        <datos>
+            <medioTransporte>"Caminando"</medioTransporte>
+            <duracion>"1 hora 50 minutos"</duracion>
+            <agencia>"sinagencia"</agencia>
+            <descripcion>"Paseo a la sombra de una espesa vegetación orillando el mar Cantábrico en la inmediaciones de la desembocadura del Nalón"</descripcion>
+            <personas>"Todo tipo de publico"</personas>
+            <lugarInicio>"Muros"</lugarInicio>
+            <direccionInicio>"San juan de la arena"</direccionInicio>
+            <coordenadasRuta>
+                <longitud>"-6.077"</longitud>
+                <latitud>"43.557"</latitud>
+                <altitud>"609"</altitud>
+            </coordenadasRuta>
+            <referencias>
+                <referencia>"https://es.wikiloc.com/rutas-senderismo/muros-de-nalon-san-juan-de-la-arena-106586123"</referencia>
+                <referencia>"https://es.wikipedia.org/wiki/San_Esteban_de_Pravia"</referencia>
+                <referencia>"https://es.wikipedia.org/wiki/Muros_de_Nal%C3%B3n"</referencia>
+            </referencias>
+            <nota>"9.5"</nota>
+            <hitos>
+                <hito>
+                    <nombre>Mirador atalaya</nombre>
+                    <descripcion>Panoramica desde el mirador de la atalaya</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-5.936"</longitud>
+                        <latitud>"43.551"</latitud>
+                        <altitud>"609"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/miradorAtalaya.jpg"></fotografias>
+                </hito>
+                <hito>
+                    <nombre>Playa del campon</nombre>
+                    <descripcion>Foto de la playa del campon</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-5.936"</longitud>
+                        <latitud>"43.551"</latitud>
+                        <altitud>"609"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/carpon.jpg"></fotografias>
+                </hito>
+                <hito>
+                    <nombre>Playa del garruncho</nombre>
+                    <descripcion>Foto de la playa del garruncho</descripcion>
+                    <coordenadasHito>
+                        <longitud>"-5.936"</longitud>
+                        <latitud>"43.551"</latitud>
+                        <altitud>"609"</altitud>
+                    </coordenadasHito>
+                    <fotografias src="multimedia/garruncho.jpg"></fotografias>
+                </hito>
+            </hitos>
+            <planimetria src="rutas.kml"></planimetria>
+            <altimetria src="rutas.svg"></altimetria>
+        </datos>
+    </ruta>
+</rutas>
